@@ -1,3 +1,6 @@
+pandas
 openai
 langchain
 langchain-openai
+django
+djangorestframework
