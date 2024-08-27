@@ -1,3 +1,5 @@
+import os
+
 """
 Django settings for workshop01 project.
 
@@ -26,7 +28,8 @@ SECRET_KEY = 'django-insecure-!#2t$4i-f#k_!at#h#!6u0n3r-3kt2wd!6&%#h)n)m!%481&v@
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '*'
+    '*',
+    f"{os.environ['GITPOD_WORKSPACE_URL']}"
 ]
 
 
